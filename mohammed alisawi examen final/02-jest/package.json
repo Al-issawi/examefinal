@@ -1,0 +1,11 @@
+{
+  "name": "examen-jest",
+  "version": "1.0.0",
+  "description": "Tests del examen con Jest",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0"
+  }
+}
