@@ -1,31 +1,21 @@
-# Entrega del examen
+# Entrega
 
-Este directorio contiene los ejercicios de documentación, testing y Git.
+- 01-jsdoc: funciones y configuración JSDoc.
+- 02-jest: funciones y seis tests.
+- 03-git-github: comandos de Git Bash.
 
-- `01-jsdoc/`: funciones documentadas con JSDoc y configuración para generar HTML.
-- `02-jest/`: funciones y seis tests, dos por cada función del enunciado.
-- `03-git-github/`: comandos ordenados para realizar el ejercicio desde Git Bash.
-
-## Generar la documentación HTML
-
-Entra en `01-jsdoc` y ejecuta:
+Para generar la documentación:
 
 ```bash
+cd 01-jsdoc
 npm install
 npm run docs
 ```
 
-La documentación se genera en `01-jsdoc/docu/`.
-
-## Ejecutar los tests
-
-Entra en `02-jest` y ejecuta:
+Para ejecutar los tests:
 
 ```bash
+cd 02-jest
 npm install
 npm test
 ```
-
-Los tests incluyen un caso que cumple y otro que no cumple la condición en cada función.
-
-Los archivos de log e historial del apartado Git se generan desde la terminal durante la práctica. No se han inventado logs de una sesión que todavía no se ha ejecutado.
