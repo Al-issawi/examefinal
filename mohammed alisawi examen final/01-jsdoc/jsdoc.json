@@ -1,0 +1,10 @@
+{
+  "source": {
+    "include": ["figuras.js"],
+    "includePattern": ".+\\.js$"
+  },
+  "opts": {
+    "destination": "docu",
+    "recurse": true
+  }
+}
