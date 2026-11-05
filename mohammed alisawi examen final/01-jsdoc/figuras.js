@@ -1,8 +1,8 @@
 /**
  * Calcula el área de un triángulo.
- * @param {number} base - Base del triángulo.
- * @param {number} altura - Altura del triángulo.
- * @returns {number} Área del triángulo.
+ * @param {number} base
+ * @param {number} altura
+ * @returns {number}
  */
 function calcularArea(base, altura) {
     return (base * altura) / 2;
@@ -10,8 +10,8 @@ function calcularArea(base, altura) {
 
 /**
  * Describe una figura geométrica.
- * @param {string} nombre - Nombre de la figura.
- * @returns {string} Descripción de la figura.
+ * @param {string} nombre
+ * @returns {string}
  */
 function describir(nombre) {
     return "Esta es una figura llamada: " + nombre;
@@ -19,9 +19,9 @@ function describir(nombre) {
 
 /**
  * Cambia el nombre de una figura.
- * @param {string} nombreActual - Nombre actual.
- * @param {string} nuevoNombre - Nuevo nombre.
- * @returns {string} Nuevo nombre.
+ * @param {string} nombreActual
+ * @param {string} nuevoNombre
+ * @returns {string}
  */
 function cambiarNombre(nombreActual, nuevoNombre) {
     return nuevoNombre;
@@ -29,9 +29,9 @@ function cambiarNombre(nombreActual, nuevoNombre) {
 
 /**
  * Comprueba si dos lados tienen la misma longitud.
- * @param {number} lado1 - Primer lado.
- * @param {number} lado2 - Segundo lado.
- * @returns {string} Mensaje indicando si es un cuadrado.
+ * @param {number} lado1
+ * @param {number} lado2
+ * @returns {string}
  */
 function esCuadrado(lado1, lado2) {
     if (lado1 === lado2) {
