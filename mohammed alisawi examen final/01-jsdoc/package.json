@@ -1,0 +1,12 @@
+{
+  "name": "examen-jsdoc",
+  "version": "1.0.0",
+  "description": "Ejercicio de documentación JSDoc",
+  "main": "figuras.js",
+  "scripts": {
+    "docs": "jsdoc -c jsdoc.json"
+  },
+  "devDependencies": {
+    "jsdoc": "^4.0.4"
+  }
+}
